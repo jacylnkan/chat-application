@@ -1,0 +1,49 @@
+@import "../config/colors.css";
+
+.entireMessage {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+    border-radius: 10px;
+}
+
+.entireMessage:hover {
+    background-color: var(--meddarkgray);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.messageSpacing {
+    margin: 0 3px 0 3px;
+    padding: 10px 20px 10px 20px;
+}
+
+.msgInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.name {
+    font-size: 16px;
+    margin: 0 10px 3px 0;
+}
+
+.text {
+    margin: 0;
+    font-size: 14px;
+    white-space: pre-line;
+}
+
+.timestamp {
+    color: var(--gray);
+    font-size: 12px;
+    margin: 0;
+}
+
+.usersSpacing {
+    margin: 5px 0 5px 0;
+}

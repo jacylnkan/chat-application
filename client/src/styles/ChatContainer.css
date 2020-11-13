@@ -1,0 +1,17 @@
+@import "../config/colors.css";
+
+.chat {
+    background-color: var(--mediumgray);
+    width: 100%;
+}
+
+.chatContainer {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+}
+
+.online {
+    background-color: var(--meddarkgray);
+    width: 300px;
+}

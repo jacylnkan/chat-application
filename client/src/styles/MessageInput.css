@@ -1,0 +1,23 @@
+@import "../config/colors.css";
+
+.form {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px 20px 20px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    height: 50px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 10px;
+    /*background-color: var(--gray);*/
+    background-color: var(--lightmediumgray);
+    padding: 0 10px 0 10px;
+    outline: none;
+    color: var(--white);
+    font-size: 15px;
+}
