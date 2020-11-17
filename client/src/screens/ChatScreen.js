@@ -7,7 +7,8 @@ import Header from "../components/Header";
 import ChatContainer from "../components/ChatContainer";
 import MessageInput from "../components/MessageInput";
 
-const ENDPOINT = "136.159.5.25:5000/"
+// const ENDPOINT = "136.159.5.25:5000/"
+const ENDPOINT = "http://localhost:5000/"
 
 const socket = io(ENDPOINT)
 
